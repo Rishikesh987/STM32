@@ -1,0 +1,7 @@
+../Core/Src/main.c:58:13:Jump_App	1
+../Core/Src/main.c:82:5:main	1
+../Core/Src/main.c:130:6:SystemClock_Config	4
+../Core/Src/main.c:181:13:MX_GPIO_Init	1
+../Core/Src/main.c:210:6:MPU_Config	1
+../Core/Src/main.c:245:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:262:6:Error_Handler	1

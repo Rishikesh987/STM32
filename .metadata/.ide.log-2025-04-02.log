@@ -1,0 +1,68 @@
+2025-04-03 07:45:19,508 [INFO] WebApp:190 - Connection lost
+2025-04-03 07:45:58,974 [ERROR] ServerAccessManage:540 - Timeout Exception during http download :Read timed out
+2025-04-03 07:45:59,009 [ERROR] ServerAccessManage:651 - Problem, Http timeout : stm32cube_fw_h7_v1121.zip.
+2025-04-03 07:46:02,558 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-04-03 07:46:03,135 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-04-03 07:46:04,854 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-04-03 07:46:04,874 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-04-03 07:46:42,357 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2025-04-03 07:46:42,358 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2025-04-03 07:46:42,358 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2025-04-03 07:46:42,358 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2025-04-03 07:46:42,359 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.UnknownHostException: stmicroelectronics.d3.sc.omtrdc.net
+2025-04-03 07:46:42,359 [INFO] FileExtend:240 - Unzip File : stm32cube_fw_h7_v1120.zip
+2025-04-03 07:46:42,360 [INFO] FileExtend:255 - Standard Zip Deflate
+2025-04-03 07:47:40,202 [INFO] WebApp:187 - Connection restablished
+2025-04-03 07:47:48,839 [INFO] ServerAccessManage:473 - Download File stm32cube_fw_h7_v1121.zip
+2025-04-03 07:47:53,823 [INFO] WebApp:190 - Connection lost
+2025-04-03 07:47:54,581 [INFO] WebApp:187 - Connection restablished
+2025-04-03 07:49:42,887 [INFO] FileExtend:240 - Unzip File : stm32cube_fw_h7_v1121.zip
+2025-04-03 07:49:42,888 [INFO] FileExtend:255 - Standard Zip Deflate
+2025-04-03 07:51:08,042 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-04-03 07:51:08,433 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-04-03 07:51:08,521 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1048022048 Bytes (1073741824)
+2025-04-03 07:51:09,321 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-04-03 07:51:09,338 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-04-03 07:51:09,701 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-03 07:51:09,702 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-04-03 07:51:09,703 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-03 07:51:09,703 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-03 07:51:09,703 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: CORTEX_M7
+2025-04-03 07:51:09,704 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-03 07:51:09,708 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-03 07:51:10,515 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\OTA\SW\STM32\BOOTLOADER\MXTmpFiles\license.tmp_save
+2025-04-03 07:51:12,233 [INFO] CodeEngine:279 - Generated code: D:\STM32\OTA\SW\STM32\BOOTLOADER\MXTmpFiles\license.tmp
+2025-04-03 07:51:12,639 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\OTA\SW\STM32\BOOTLOADER\MXTmpFiles\gpio.tmp_save
+2025-04-03 07:51:13,365 [INFO] CodeEngine:279 - Generated code: D:\STM32\OTA\SW\STM32\BOOTLOADER\MXTmpFiles\gpio.tmp
+2025-04-03 07:51:13,457 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-04-03 07:51:13,797 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\OTA\SW\STM32\BOOTLOADER\MXTmpFiles\cortex.tmp_save
+2025-04-03 07:51:14,284 [INFO] CodeEngine:279 - Generated code: D:\STM32\OTA\SW\STM32\BOOTLOADER\MXTmpFiles\cortex.tmp
+2025-04-03 07:51:14,319 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Src\stm32h7xx_it.c_save
+2025-04-03 07:51:14,573 [INFO] CodeEngine:279 - Generated code: D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Src\stm32h7xx_it.c
+2025-04-03 07:51:14,582 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Inc\stm32h7xx_it.h_save
+2025-04-03 07:51:14,741 [INFO] CodeEngine:279 - Generated code: D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Inc\stm32h7xx_it.h
+2025-04-03 07:51:15,156 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Src\stm32h7xx_hal_msp.c_save
+2025-04-03 07:51:15,947 [INFO] CodeEngine:279 - Generated code: D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Src\stm32h7xx_hal_msp.c
+2025-04-03 07:51:15,972 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\OTA\SW\STM32\BOOTLOADER\MXTmpFiles\system.tmp_save
+2025-04-03 07:51:16,317 [INFO] CodeEngine:279 - Generated code: D:\STM32\OTA\SW\STM32\BOOTLOADER\MXTmpFiles\system.tmp
+2025-04-03 07:51:16,351 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Src\stm32h7xx_hal_timebase_tim.c_save
+2025-04-03 07:51:16,740 [INFO] CodeEngine:279 - Generated code: D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Src\stm32h7xx_hal_timebase_tim.c
+2025-04-03 07:51:16,836 [INFO] CodeEngine:311 - oldGeneratedFile, D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Inc\stm32h7xx_hal_conf.h_save
+2025-04-03 07:51:17,486 [INFO] CodeEngine:335 - Generated code: D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Inc\stm32h7xx_hal_conf.h
+2025-04-03 07:51:18,120 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-04-03 07:51:18,121 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-04-03 07:51:18,144 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2025-04-03 07:51:18,214 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Inc\main.h_save
+2025-04-03 07:51:18,606 [INFO] CodeEngine:279 - Generated code: D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Inc\main.h
+2025-04-03 07:51:18,623 [INFO] CodeEngine:255 - oldGeneratedFile, D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Src\main.c_save
+2025-04-03 07:51:19,629 [INFO] CodeEngine:279 - Generated code: D:\STM32\OTA\SW\STM32\BOOTLOADER\Core\Src\main.c
+2025-04-03 07:51:21,956 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 1414mS.
+2025-04-03 07:51:22,000 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-03 07:51:22,395 [INFO] ConfigFileManager:1579 - The Die is : DIE483
+2025-04-03 07:51:22,493 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-04-03 07:51:22,510 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-04-03 07:51:22,523 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2025-04-03 07:51:22,542 [INFO] ApiDbMcu:508 - Load IP Config File for LWIP
+2025-04-03 07:51:22,563 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2025-04-03 07:51:22,605 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2025-04-03 07:51:22,632 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST

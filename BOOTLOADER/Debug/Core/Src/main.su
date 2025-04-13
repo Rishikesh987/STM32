@@ -1,0 +1,7 @@
+../Core/Src/main.c:58:13:Jump_App	16	static,ignoring_inline_asm
+../Core/Src/main.c:82:5:main	8	static
+../Core/Src/main.c:130:6:SystemClock_Config	120	static
+../Core/Src/main.c:181:13:MX_GPIO_Init	32	static
+../Core/Src/main.c:210:6:MPU_Config	24	static
+../Core/Src/main.c:245:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:262:6:Error_Handler	4	static,ignoring_inline_asm
