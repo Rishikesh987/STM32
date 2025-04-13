@@ -36,8 +36,25 @@ BS_:
 BU_: FLS ECU
 
 
-BO_ 2147483904 OTA_Req: 8 FLS
- SG_ New_SW_Ver : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+BO_ 257 Transfer_Data: 64 FLS
+ SG_ segment_8 : 455|64@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ segment_7 : 391|64@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ segment_6 : 327|64@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ segment_5 : 263|64@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ segment_4 : 199|64@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ segment_3 : 135|64@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ segment_2 : 71|64@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ segment_1 : 7|64@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 768 OTA_Resp: 1 ECU
+ SG_ Respons : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 256 OTA_Req: 8 FLS
+ SG_ SW_Patch : 31|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ SW_Major : 15|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ File_Size : 39|32@0+ (1,0) [0|4294967295] "" Vector__XXX
+ SG_ Target_device : 7|8@0+ (1,0) [0|255] "" Vector__XXX
+ SG_ SW_Minor : 23|8@0+ (1,0) [0|255] "" Vector__XXX
 
 
 
@@ -55,7 +72,6 @@ BA_DEF_ BU_  "CANoeDrift" INT 0 0;
 BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
 BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
 BA_DEF_REL_ BU_BO_REL_  "CYC" INT 0 0;
-BA_DEF_DEF_REL_ "CYC" 0;
 BA_DEF_DEF_  "GenMsgSendType" "FIX";
 BA_DEF_DEF_  "GenMsgCycleTime" 0;
 BA_DEF_DEF_  "MultiplexExtEnabled" "No";
@@ -69,10 +85,12 @@ BA_DEF_DEF_  "CANoeJitterMin" 0;
 BA_DEF_DEF_  "CANoeDrift" 0;
 BA_DEF_DEF_  "CANoeStartDelay" 0;
 BA_DEF_DEF_  "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_REL_ "CYC" 0;
 BA_ "BusType" "CAN FD";
 BA_ "DBName" "BTL";
-BA_ "GenMsgSendType" BO_ 2147483904 1;
-BA_ "GenMsgCycleTime" BO_ 2147483904 100;
-BA_ "CANFD_BRS" BO_ 2147483904 0;
-BA_ "VFrameFormat" BO_ 2147483904 1;
+BA_ "VFrameFormat" BO_ 257 14;
+BA_ "CANFD_BRS" BO_ 256 0;
+BA_ "GenMsgCycleTime" BO_ 256 100;
+BA_ "GenMsgSendType" BO_ 256 1;
+BA_ "VFrameFormat" BO_ 256 14;
 
